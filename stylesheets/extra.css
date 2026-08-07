@@ -10,10 +10,6 @@
     padding-left: 1rem !important;
     padding-right: 1rem !important;
 }
-/* Hide the right sidebar to give more space */
-.md-sidebar--secondary {
-    display: none !important;
-}
 /* Full width images */
 img[alt="Global map"] {
     width: 100% !important;
