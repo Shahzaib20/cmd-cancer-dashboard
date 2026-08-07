@@ -5,61 +5,67 @@
     max-width: 100% !important;
     padding-left: 2rem !important;
     padding-right: 2rem !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
 }
 
-/* Base font */
+/* Base font - consistent throughout */
 .md-typeset {
     font-size: 1.05rem !important;
     line-height: 1.7 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
 }
 
-/* Summary table - professional blue theme */
-.md-typeset table:first-of-type {
+/* Summary table */
+.md-typeset table {
     width: 100% !important;
     border-collapse: collapse !important;
-    border-radius: 8px !important;
-    overflow: hidden !important;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
     font-size: 1.0rem !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
     display: table !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+    border-radius: 6px !important;
+    overflow: hidden !important;
 }
-.md-typeset table:first-of-type th {
+.md-typeset table th {
     background-color: #1565C0 !important;
     color: white !important;
     padding: 14px 24px !important;
     font-size: 1.05rem !important;
     font-weight: 600 !important;
-    letter-spacing: 0.5px !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
 }
-.md-typeset table:first-of-type td {
+.md-typeset table td {
     padding: 12px 24px !important;
     border-bottom: 1px solid #E3F2FD !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+    font-size: 1.0rem !important;
 }
-.md-typeset table:first-of-type tr:nth-child(even) td {
+.md-typeset table tr:nth-child(even) td {
     background-color: #F8FAFE !important;
 }
-.md-typeset table:first-of-type tr:hover td {
+.md-typeset table tr:hover td {
     background-color: #E3F2FD !important;
 }
 
-/* Studies table - clean minimal theme */
-.md-typeset table:last-of-type {
+/* Studies HTML table */
+table.studies-table {
     width: 100% !important;
     border-collapse: collapse !important;
-    font-size: 0.95rem !important;
-    display: table !important;
+    margin-top: 1rem !important;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08) !important;
 }
-.md-typeset table:last-of-type td {
+table.studies-table td {
     padding: 10px 16px !important;
     border: 1px solid #E8EAF6 !important;
+    font-size: 0.95rem !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
     color: #37474F !important;
-    font-family: monospace !important;
+    width: 25% !important;
 }
-.md-typeset table:last-of-type tr:nth-child(even) td {
-    background-color: #F5F5F5 !important;
+table.studies-table tr:nth-child(even) td {
+    background-color: #F5F7FF !important;
 }
-.md-typeset table:last-of-type tr:hover td {
+table.studies-table tr:hover td {
     background-color: #E8EAF6 !important;
     color: #1565C0 !important;
 }
@@ -97,30 +103,3 @@ img[alt="BMI distribution"] {
 .md-nav__title { font-size: 0.9rem !important; }
 .md-nav__item { font-size: 0.9rem !important; }
 .md-nav__link { font-size: 0.9rem !important; }
-
-/* Studies table HTML */
-table.studies-table {
-    width: 100% !important;
-    border-collapse: collapse !important;
-    font-size: 0.95rem !important;
-    margin-top: 1rem !important;
-}
-table.studies-table td {
-    padding: 10px 16px !important;
-    border: 1px solid #E8EAF6 !important;
-    color: #37474F !important;
-    font-family: monospace !important;
-    width: 25% !important;
-}
-table.studies-table tr:nth-child(even) td {
-    background-color: #F5F5F5 !important;
-}
-table.studies-table tr:hover td {
-    background-color: #E8EAF6 !important;
-    color: #1565C0 !important;
-}
-
-/* Fix summary table font size */
-.md-typeset table:first-of-type td {
-    font-size: 1.05rem !important;
-}
