@@ -1,10 +1,20 @@
-/* Make Fig1 global map display full width */
 img[alt="Global map"] {
     width: 100%;
     max-width: 100%;
+    height: auto;
 }
-
 img[alt="Cancer types"] {
     width: 100%;
     max-width: 100%;
+    height: auto;
+}
+img[alt="Age distribution"] {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+}
+img[alt="BMI distribution"] {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
 }
