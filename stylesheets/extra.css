@@ -9,7 +9,6 @@
     max-width: 100% !important;
     padding-left: 2rem !important;
     padding-right: 2rem !important;
-    font-size: 1.1rem !important;
 }
 
 /* Larger base font */
@@ -20,7 +19,7 @@
 
 /* Wider and better styled table */
 .md-typeset table {
-    width: 70% !important;
+    width: 90% !important;
     font-size: 1.05rem !important;
     border-collapse: collapse !important;
 }
@@ -31,6 +30,7 @@
 }
 .md-typeset table td {
     padding: 12px 20px !important;
+    white-space: nowrap !important;
 }
 
 /* Full width images */
@@ -53,9 +53,16 @@ img[alt="BMI distribution"] {
 }
 
 /* Larger headings */
-.md-typeset h1 {
-    font-size: 2.2rem !important;
+.md-typeset h1 { font-size: 2.2rem !important; }
+.md-typeset h2 { font-size: 1.7rem !important; }
+
+/* Larger table of contents */
+.md-nav__title {
+    font-size: 1.0rem !important;
 }
-.md-typeset h2 {
-    font-size: 1.7rem !important;
+.md-nav__item {
+    font-size: 1.0rem !important;
+}
+.md-nav__link {
+    font-size: 1.0rem !important;
 }
