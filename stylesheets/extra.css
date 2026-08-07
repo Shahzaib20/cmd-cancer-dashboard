@@ -97,3 +97,30 @@ img[alt="BMI distribution"] {
 .md-nav__title { font-size: 0.9rem !important; }
 .md-nav__item { font-size: 0.9rem !important; }
 .md-nav__link { font-size: 0.9rem !important; }
+
+/* Studies table HTML */
+table.studies-table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    font-size: 0.95rem !important;
+    margin-top: 1rem !important;
+}
+table.studies-table td {
+    padding: 10px 16px !important;
+    border: 1px solid #E8EAF6 !important;
+    color: #37474F !important;
+    font-family: monospace !important;
+    width: 25% !important;
+}
+table.studies-table tr:nth-child(even) td {
+    background-color: #F5F5F5 !important;
+}
+table.studies-table tr:hover td {
+    background-color: #E8EAF6 !important;
+    color: #1565C0 !important;
+}
+
+/* Fix summary table font size */
+.md-typeset table:first-of-type td {
+    font-size: 1.05rem !important;
+}
