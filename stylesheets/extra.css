@@ -114,3 +114,14 @@ img[alt="BMI distribution"] {
 #studies-included + table thead tr {
     display: none !important;
 }
+
+/* Hide studies table header - more specific */
+h2#studies-included + table thead,
+h2#studies-included + table thead tr,
+h2#studies-included + table th {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+}
