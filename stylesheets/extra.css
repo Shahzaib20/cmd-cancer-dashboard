@@ -1,30 +1,35 @@
-/* Override Material theme grid constraints */
-.md-grid {
-    max-width: 100% !important;
-}
+/* Full width content area */
 .md-content {
     max-width: 100% !important;
 }
 .md-content__inner {
     max-width: 100% !important;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
-/* Full width images */
+
+/* Make global map full width */
 img[alt="Global map"] {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: auto !important;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
+
+/* Make cancer types full width */
 img[alt="Cancer types"] {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: auto !important;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
+
+/* Age and BMI at 70% */
 img[alt="Age distribution"],
 img[alt="BMI distribution"] {
-    width: 65% !important;
-    height: auto !important;
-    display: block !important;
-    margin: 0 auto !important;
+    width: 70%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
