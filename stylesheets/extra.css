@@ -103,3 +103,9 @@ img[alt="BMI distribution"] {
 .md-nav__title { font-size: 0.9rem !important; }
 .md-nav__item { font-size: 0.9rem !important; }
 .md-nav__link { font-size: 0.9rem !important; }
+
+/* Hide studies table header */
+#studies-included + table thead,
+#studies-included + table th {
+    display: none !important;
+}
