@@ -1,0 +1,10 @@
+/* Make Fig1 global map display full width */
+img[alt="Global map"] {
+    width: 100%;
+    max-width: 100%;
+}
+
+img[alt="Cancer types"] {
+    width: 100%;
+    max-width: 100%;
+}
