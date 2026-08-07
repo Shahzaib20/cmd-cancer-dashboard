@@ -1,35 +1,28 @@
-/* Full width content area */
+.md-grid {
+    max-width: 100% !important;
+}
 .md-content {
     max-width: 100% !important;
 }
 .md-content__inner {
     max-width: 100% !important;
-    margin: 0 auto;
-    padding: 0 2rem;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
 }
-
-/* Make global map full width */
 img[alt="Global map"] {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
 }
-
-/* Make cancer types full width */
 img[alt="Cancer types"] {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
 }
-
-/* Age and BMI at 70% */
 img[alt="Age distribution"],
 img[alt="BMI distribution"] {
-    width: 70%;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    width: 65% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto !important;
 }
